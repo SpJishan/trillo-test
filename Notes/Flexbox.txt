@@ -1,0 +1,2 @@
+flex( flex grow, flex shrink , flex basis); // theory
+flex: 0 0 18%; // code
