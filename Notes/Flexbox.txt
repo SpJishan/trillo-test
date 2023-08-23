@@ -1,2 +1,18 @@
 flex( flex grow, flex shrink , flex basis); // theory
-flex: 0 0 18%; // code
+flex: 0 0 18%; // code , thats means grow and shrink is 0 but keeps an 18% area
+
+flex: 1; // occupies the remaining space
+
+
+&::-webkit-input-placeholder{
+            font-weight: 100;
+            color: var(--color-grey-light-4) ;
+        }
+
+
+& > * {     //Here > sign will assign effects in{} to all dirrect children 
+        
+    }
+
+
+fill: currentColor;
