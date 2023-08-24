@@ -42,6 +42,8 @@ Grey dark 3: #999
     
 }
 
+ $bp-largest: 75em; //  1200/ 
+
 *{
     margin:0;
     padding:0;
@@ -56,6 +58,10 @@ Grey dark 3: #999
 html{
     box-sizing: border-box;
     font-size: 62.5%; // 1rem=10px ; 10px/16px=62.5%;
+
+    @media only screen and (max-width:1113px) {
+        font-size: 50%;  // 8px/16px=50%;
+    }
 }
 body{
     font-family: 'Open Sans', sans-serif;
